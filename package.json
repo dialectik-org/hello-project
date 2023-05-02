@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dialectik": "node ./node_modules/@dialectik/cli/bin/run.cjs"
+  },
+  "license": "MIT",
+  "dialectik": {
+    "plugins": [
+      "@dialectik/katex-plugin",
+      {
+        "name": "@dialectik/prism-plugin",
+        "arg": [ "@completium/archetype-prism" ]
+      },
+      "@dialectik/admonition-plugin"
+    ]
+  },
+  "devDependencies": {
+    "@dialectik/cli": "^0.0.4"
+  },
+  "name": "testproject"
+}
