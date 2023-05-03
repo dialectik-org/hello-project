@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    "@dialectik/katex-plugin",
+    {
+      "name": "@dialectik/prism-plugin",
+      "arg": [ "@completium/archetype-prism" ]
+    },
+    "@dialectik/admonition-plugin"
+  ]
+}
