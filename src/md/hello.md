@@ -1,6 +1,6 @@
 ---
-title: MD First Example
-css : style.css
+title: Hello Dialectik
+style : style.css
 ---
 <div style={{ marginLeft: '20px' }} class="col-6">
 

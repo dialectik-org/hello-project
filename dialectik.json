@@ -1,4 +1,7 @@
 {
+  "compilerOptions" : {
+    "moduleDir" : "/Users/benoitrognier/Projects/dialectik/compiler/node_modules"
+  },
   "plugins": [
     "@dialectik/katex-plugin",
     {
