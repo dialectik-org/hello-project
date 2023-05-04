@@ -133,4 +133,8 @@ import { RunningClock } from './react/runningclock.tsx';
 
 <RunningClock/>
 
+import Basic from './basic.md'
+
+<Basic />
+
 </div>
