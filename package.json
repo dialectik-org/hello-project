@@ -9,7 +9,6 @@
   "devDependencies": {
     "@completium/archetype-prism": "^0.0.1",
     "@dialectik/admonition-plugin": "^0.0.4",
-    "@dialectik/cli": "^0.0.4",
     "@dialectik/katex-plugin": "^0.0.3",
     "@dialectik/prism-plugin": "^0.0.7"
   },
