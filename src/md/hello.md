@@ -126,4 +126,11 @@ This is a local image:
 
 ![edukera logo](./assets/icon_300_blue.png)
 
+
+## React Clock!
+
+import { RunningClock } from './react/runningclock.tsx';
+
+<RunningClock/>
+
 </div>
