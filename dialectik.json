@@ -1,13 +1,29 @@
 {
   "compilerOptions" : {
-    "moduleDir" : "/Users/benoitrognier/Projects/dialectik/compiler/node_modules"
+    "moduleDir" : "/Users/benoitrognier/Projects/dialectik/compiler/node_modules",
+    "chain" : "chakra"
   },
-  "plugins": [
-    "@dialectik/katex-plugin",
-    {
-      "name": "@dialectik/prism-plugin",
-      "arg": [ "@completium/archetype-prism" ]
+  "chains" : {
+    "default" : {
+      "plugins" : [
+        "@dialectik/default-plugin",
+        "@dialectik/katex-plugin",
+        {
+          "name": "@dialectik/prism-plugin",
+          "arg": [ "@completium/archetype-prism" ]
+        },
+        "@dialectik/admonition-plugin"
+      ]
     },
-    "@dialectik/admonition-plugin"
-  ]
+    "chakra" : {
+      "plugins" : [
+        "@dialectik/chakra-plugin",
+        "@dialectik/katex-plugin",
+        {
+          "name": "@dialectik/prism-chakra-plugin",
+          "arg": [ "@completium/archetype-prism" ]
+        }
+      ]
+    }
+  }
 }
